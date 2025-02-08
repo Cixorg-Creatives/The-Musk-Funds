@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&family=Sirin+Stencil&display=swap');
 @import "tailwindcss";
 
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sirin-stencil-regular {
+  font-family: "Sirin Stencil", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 a.active{
   @apply border-2 border-orange-400;
