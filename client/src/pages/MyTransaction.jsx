@@ -61,7 +61,7 @@ const MyTransaction = ({ token }) => {
         Your Transaction History
       </p>
       <div className="flex flex-col gap-2">
-        <div className="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center py-1 px-5 border bg-[#00b4d8]/30 text-gray-700 rounded-full text-xs md:text-base font-medium">
+        <div className="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center text-start py-1 px-5 border bg-[#00b4d8]/30 text-gray-700 rounded-full text-[7px] font-medium">
           <b>Description</b>
           <b>Withdrawl</b>
           <b>Deposit</b>
@@ -89,7 +89,7 @@ const MyTransaction = ({ token }) => {
         {!loading &&
           list.map((item, index) => (
             <div key={index} className="block">
-              <div className="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center py-1 px-5 rounded-full border border-gray-300 text-[8px] md:text-sm">
+              <div className="grid grid-cols-[1fr_1fr_1fr_1fr_1fr_1fr_1fr] items-center py-1 px-5 rounded-full border border-gray-300 text-[6px] md:text-sm">
                 <p className="text-gray-700">
                   {item.description}
                 </p>

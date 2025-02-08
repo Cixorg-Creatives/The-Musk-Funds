@@ -81,6 +81,8 @@ const updateTransaction = async (req, res) => {
       withdrawl,
       deposit,
       profit,
+      total:
+        Number(deposit) + Number(profit) - Number(withdrawl) - Number(loss),
       loss,
     });
 
